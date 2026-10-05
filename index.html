@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Incidencias - Cubiscan</title>
+</head>
+<body>
+  <h1>Nueva Incidencia de Empaque</h1>
+  <form id="formulario-incidencias">
+    <label>SKU: <input type="text" id="sku" required></label><br><br>
+    <label>Descripción SKU: <input type="text" id="descripcion" required></label><br><br>
+    <label>Problema Detectado: <input type="text" id="problema" required></label><br><br>
+    <label>Número ASN: <input type="text" id="asn" required></label><br><br>
+    <label>Unidades: <input type="number" id="unidades" required></label><br><br>
+    <button type="submit">Registrar Incidencia</button>
+  </form>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
